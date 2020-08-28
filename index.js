@@ -2,7 +2,7 @@ const HtmlTableToJson = require('html-table-to-json');
 const ObjectsToCsv = require('objects-to-csv');
 
 /* TODO: do this with a scrape or at least bring in a string with fs */
-const mydata = `{{ view source from roster/assign_classes and copy/paste the entire <table> here }}`;
+const myhtml = `{{ view source from roster/assign_classes and copy/paste the entire <table> here }}`;
 
 const jsonTables = HtmlTableToJson.parse(myhtml);
  
